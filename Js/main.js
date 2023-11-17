@@ -7,7 +7,7 @@ document
 .setAttribute('href', 'http://www.google.co.uk');
 })();
 
-document.querySelector(".red").addEventListener('click', function(){
+document.querySelector(".red").addEventListener('click', function(ev){
  document.querySelector('body').setAttribute('class', "redBack");
  })
 
