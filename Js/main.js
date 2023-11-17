@@ -15,4 +15,3 @@ document.querySelector(".red").addEventListener('click', function(){
  document.querySelector('body').setAttribute('class', "redBack");
  })
 
- })();
