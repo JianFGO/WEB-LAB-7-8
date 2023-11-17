@@ -17,10 +17,12 @@ let imageAr = [
     'images/view3.jpg',
     'images/view4.jpg', 
     'images/view5.jpg', 
-    'images/view6.jpg'];
+    'images/view6.jpg'
+];
 
     let imageCount = 0;
     setInterval(function() {
+        Document
         .getElementById("myImages")
         .setAttribute("src", imageAr[imageCount]);
         imageCount++;
