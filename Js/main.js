@@ -9,11 +9,8 @@ document.getElementById('myTestEvent').onclick = myFunction;
 function myFunction(){
 console.info('hi');
 }
-document.getElementById('myTestEvent').addEventListener('click',
-myFunction);
-function myFunction(){
-console.info('hi');
-}
+<p onClick="console.info('hi')">Test Event</p>
+
 document.querySelector(".red").addEventListener('click', function(ev){
  document.querySelector('body').setAttribute('class', "redBack");
  })
